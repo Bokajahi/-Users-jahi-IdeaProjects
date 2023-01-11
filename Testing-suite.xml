@@ -1,0 +1,11 @@
+<suite name="Suite1" verbose="https://testng.org/testng-1.0.dtd">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+
+    <test name="Regression1">
+        <classes>
+            <class name="DriveronTest"/>
+        </classes>
+    </test>
+</suite>
