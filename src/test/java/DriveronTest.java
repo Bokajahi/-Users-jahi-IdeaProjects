@@ -14,8 +14,8 @@ public class DriveronTest {
     @BeforeClass
     void preparation() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.get("http:https://demoqa.com/"); // .get() method to navigate to a
+        driver = new ChromeDriver();
+        driver.get("https://demoqa.com/"); // .get() method to navigate to a
     }
 
     @Test

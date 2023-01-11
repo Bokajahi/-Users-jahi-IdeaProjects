@@ -1,4 +1,5 @@
-<suite name="Suite1" verbose="https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite#1" verbose="1" >
     <listeners>
         <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
     </listeners>
@@ -6,6 +7,7 @@
     <test name="Regression1">
         <classes>
             <class name="DriveronTest"/>
+            <class name="WayToDriver.JSAlert"></class>
         </classes>
     </test>
 </suite>

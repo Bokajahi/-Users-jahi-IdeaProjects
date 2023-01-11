@@ -34,8 +34,8 @@ public class JSAlert {
         //driver.switchTo().window(tabs.get(1));
 
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.https://demoqa.com/alerts");
+        driver = new ChromeDriver();
+        driver.get("https://demoqa.com/alerts");
     }
 
     @Test
